@@ -13,13 +13,14 @@
 
 ## Application 
  Run below command to create controller, models, request and migration
+   - compser update to download vendor folder 
    - php artisan make:controller PropertyController 
    - php artisan make:model PropertyType -m
    - php artisan make:model PropertyListing -m 
    - php artisan make:command SyncProperties 
    - php artisan make:request PropertyRequest
-   - sudo chmod -R 777 storage bootstrap 
-  
+   - create images and thumbnails dir in storage folder
+
 
 ## To RUN Applicatoin
 - php artisan migrate
